@@ -11,6 +11,9 @@
     <Filter Include="Framework">
       <UniqueIdentifier>{7606e04a-528d-4b47-96a3-31e899f2bbf7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{595ee783-42e2-4617-811f-1c408cc68dce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -28,13 +31,16 @@
     <ClCompile Include="Framework\Input.c">
       <Filter>Framework</Filter>
     </ClCompile>
+    <ClCompile Include="Framework\Timer.c">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage.c">
+      <Filter>GAME</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>main</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Framework</Filter>
     </ClInclude>
     <ClInclude Include="Framework\Renderer.h">
       <Filter>Framework</Filter>
@@ -44,6 +50,15 @@
     </ClInclude>
     <ClInclude Include="Framework\Input.h">
       <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Timer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage.h">
+      <Filter>GAME</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

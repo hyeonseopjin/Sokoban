@@ -6,11 +6,11 @@
 void InitializeTimer();
 
 /// <summary>
-/// 타이머를 최신화한다.
+/// 타이머를 최신화 한다.
 /// </summary>
 void UpdateTimer();
 
 /// <summary>
-/// 델타 타임 (프레임간 시간)을 구한다.
+/// 델타 타임(프레임 간 시간)을 얻는다.
 /// </summary>
 float GetDeltaTime();

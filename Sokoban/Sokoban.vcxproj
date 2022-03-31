@@ -21,7 +21,9 @@
   <ItemGroup>
     <ClCompile Include="Framework\Input.c" />
     <ClCompile Include="Framework\Renderer.c" />
+    <ClCompile Include="Framework\Timer.c" />
     <ClCompile Include="Game.c" />
+    <ClCompile Include="Game\Stage.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="stdafx.c">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -31,7 +33,9 @@
     <ClInclude Include="Framework\Game1.h" />
     <ClInclude Include="Framework\Input.h" />
     <ClInclude Include="Framework\Renderer.h" />
-    <ClInclude Include="Game.h" />
+    <ClInclude Include="Framework\Timer.h" />
+    <ClInclude Include="Game\Stage.h" />
+    <ClInclude Include="Macro.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
