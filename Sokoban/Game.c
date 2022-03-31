@@ -5,9 +5,9 @@
 #include "Framework/Timer.h"
 #include "Game/Stage.h"
 
-bool Initialize()
+bool Initialize() // 초기화
 {
-	if (false == InitializeRenderer())
+	if (false == InitializeRenderer()) // 랜더 초기화
 	{
 		return false;
 	}
