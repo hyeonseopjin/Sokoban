@@ -10,7 +10,7 @@ int main()
 		return 1;
 	}
 
-	puts("도움을 주셔서 너무 감사합니다! ♥");
+	//puts("도움을 주셔서 너무 감사합니다! ♥");
 
 	return Run();
 }

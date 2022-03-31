@@ -3,12 +3,15 @@
 #include <stdbool.h>
 
 /// <summary>
-/// 렌더러를 초기화한다.
+/// 랜더러를 초기화한다.
 /// </summary>
-/// <returns> 초기화 성공이면 true, 아니면 false </returns>
+/// <returns 초기화 성공이면 true, 아니면 false</returns>
 bool InitializeRenderer();
 
-
-///맵을 그린다.
-
+/// <summary>
+/// 맵을 그린다.
+/// </summary>
+/// <returns> </returns>
 void RenderMap();
+
+void setMessage(const char message[24]);
